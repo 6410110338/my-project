@@ -47,7 +47,7 @@ function App() {
         </form>
 
         {err ? (
-          <p className='my-5'>No data was found!</p>
+          <p className='my-5.5'>No data was found!</p>
         ) : (
           <>
             <img className='my-5 w-50 h-50 rounded-xl shadow-lg mx-auto' alt={`${data.name}`} src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png`} />
